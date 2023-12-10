@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etanol x Gasolina</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="image">
+            <section class="container">
+
+                <h1>Etanol x Gasolina</h1>
+                <P>Compare o preço do litro do álcool com o da gasolina e veja qual deles é mais vantajoso
+                    financeiramente.</P>
+            </section>
+        </div>
+
+
+        <section class="container content">
+            <h2>O Etanol vale a pena quando custar até 70% do valor da Gasolina</h2>
+            <p>Preencha os campos abaixo com os preços dos combustíveis que você encontra hoje nos postos e clique no
+                botão “calcular” para saber qual é a melhor opção.</p>
+ 
+            <div class="formulario">
+                <form autocomplete="off">
+                    <div>
+                        <label for="etanol">Informe o preço do Etanol</label>
+                        <input type="number" id="etanol" step="any">
+                    </div>
+
+                    <div>
+                        <label for="gasolina">Informe o preço da Gasolina</label>
+                        <input type="number" id="gasolina" step="any">
+                    </div>
+
+                    <button type="button" id="btn">Calcular</button>
+
+                </form>
+
+                <div class="resultado">
+                    <h3 id="resultado">O percentual é:<br><span class="percentual"></span></h3>
+                    <h3 id="resultado">Abasteça com:<br><span class="abasteca"></span></h3>
+                    
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+$gray: #555555;
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+img {
+    display: block;
+}
+
+.image {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    // box-sizing: border-box;
+
+
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        padding-top: 78px;
+        margin-bottom: 13px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    p {
+        font-size: 32px;
+        font-weight: 700;
+        padding-bottom: 78px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+}
+
+.content {
+
+    padding-top: 84px;
+    padding-bottom: 84px;
+    padding-left: 150px;
+    padding-right: 150px;
+    box-sizing: border-box;
+
+    h2 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+
+    p {
+        color: $gray;
+        text-align: start;
+        font-size: 16px;
+        padding-bottom: 24px;
+    }
+
+    .formulario {
+
+        display: flex;
+        justify-content: space-between;
+
+        form {
+
+            label {
+                color: $gray;
+                margin-bottom: 3px;
+
+            }
+
+            input {
+                display: block;
+                margin-bottom: 10px;
+                height: 30px;
+                width: 300px;
+                border: 1px solid #CCCCCC;
+                border-radius: 3px;
+                outline: none;
+                &:focus{
+                    border: 1px solid #555555;
+                }
+            }
+
+            #btn {
+                background-color: #003366;
+                color: #FFFFFF;
+                width: 130px;
+                height: 30px;
+                padding: 5px 35px 6px 35px;
+                border-radius: 3px;
+                display: inline-block;
+                cursor: pointer;
+ 
+                &:hover {
+                    background-color: #0066CC;
+                }
+            }
+        }
+
+       
+        .resultado {
+            //display: none;
+            width: 90%;
+            max-width: 350px;
+            height: auto;
+            background-color: #0066CC;
+            color: #FFFFFF;
+            padding: 22px 92px;
+            box-sizing: border-box;
+            margin-top: 27px;
+            text-align: center;
+
+            h3 {
+
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 100%;
+
+
+                //foi só para testar 
+                // .percentual, .abasteca{
+                //     color: yellow;
+                // }
+                
+            }
+        }
+    }
+}
